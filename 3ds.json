@@ -1,0 +1,29 @@
+{
+	"llvm-target": "arm-none-eabihf",
+	"data-layout": "e-m:e-p:32:32-Fi8-i64:64-v128:64:128-a:0:32-n32-S64",
+
+	"os": "none",
+	"env": "eabi",
+	"vendor": "unknown",
+	"arch": "arm",
+	"target-cpu": "mpcore",
+	"features": "+strict-align,+v6,+vfp2,-d32",
+
+	"target-endian": "little",
+	"target-pointer-width": "32",
+	"target-c-int-width": "32",
+	"max-atomic-width": 64,
+
+	"linker-flavor": "ld.lld",
+	"linker": "rust-lld",
+
+	"executables": true,
+	"dynamic-linking": false,
+
+	"relocation-model": "static",
+
+	"no-compiler-rt": true,
+	"panic-strategy": "abort",
+
+	"crt-static-respected": true
+}
