@@ -4,4 +4,5 @@
 
 Cargo.lock
 
-3ds.map
+rust_3ds.map
+rust_3ds.s
