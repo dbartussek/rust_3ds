@@ -14,8 +14,13 @@
 	"target-c-int-width": "32",
 	"max-atomic-width": 64,
 
+	"comment_linker_llvm": "The following config uses the llvm linker",
 	"linker-flavor": "ld.lld",
 	"linker": "rust-lld",
+
+	"comment_linker_gcc": "The following config uses the gcc linker",
+	"--linker-flavor": "ld",
+	"--linker": "arm-none-eabi-ld",
 
 	"executables": true,
 	"dynamic-linking": false,
