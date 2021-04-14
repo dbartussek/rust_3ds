@@ -6,3 +6,6 @@ Cargo.lock
 
 rust_3ds.map
 rust_3ds.s
+
+rust_3ds.smdh
+rust_3ds.3dsx
