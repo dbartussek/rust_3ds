@@ -17,4 +17,4 @@ panic = "abort"
 opt-level = "s"
 
 [dependencies]
-libctru = { git = "https://github.com/dbartussek/libctru-rs.git" }
+libctru = { path = "../libctru" }
